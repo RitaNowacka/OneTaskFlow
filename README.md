@@ -1,4 +1,4 @@
-# Task Flow
+# OneTaskFlow
 
 Minimalna aplikacja PWA do wykonywania zadań po kolei.
 
