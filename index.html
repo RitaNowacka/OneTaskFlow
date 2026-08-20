@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#111111">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>Task Flow</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="app">
+    <section id="listView" class="view">
+      <header class="header">
+        <h1>Tasks</h1>
+        <button id="startBtn" class="primary">START</button>
+      </header>
+
+      <form id="taskForm" class="add-form">
+        <input id="taskInput" type="text" placeholder="Add a task…" autocomplete="off" maxlength="200">
+        <button type="submit" class="primary">ADD</button>
+      </form>
+
+      <div id="taskList" class="task-list"></div>
+      <p id="emptyState" class="empty">No tasks yet.</p>
+    </section>
+
+    <section id="runView" class="view run-view hidden">
+      <div id="currentTask" class="current-task"></div>
+      <button id="doneBtn" class="done">DONE</button>
+      <button id="exitBtn" class="exit">Exit</button>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
