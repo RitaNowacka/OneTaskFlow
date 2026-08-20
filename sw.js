@@ -1,4 +1,4 @@
-const CACHE = "task-flow-v1";
+const CACHE = "OneTaskFlow-v1";
 const ASSETS = ["./", "./index.html", "./style.css", "./app.js", "./manifest.json", "./icon.svg"];
 
 self.addEventListener("install", event => {
