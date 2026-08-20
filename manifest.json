@@ -1,7 +1,7 @@
 {
-  "name": "Task Flow",
-  "short_name": "Task Flow",
-  "start_url": "./",
+  "name": "OneTaskFlow",
+  "short_name": "OneTaskFlow",
+  "start_url": "/OneTaskFlow/"
   "display": "standalone",
   "background_color": "#f5f5f5",
   "theme_color": "#111111",
